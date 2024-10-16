@@ -21,8 +21,6 @@ export function App() {
 			buttonRef.current.style.bottom = generatePosition(10, 90)
 			buttonRef.current.style.left = generatePosition(10, 90)
 		}
-
-		console.log('opa, desviei...')
 	}
 
 	return (
@@ -36,7 +34,7 @@ export function App() {
 			</Marquee>
 
 			<div className='flex flex-1 flex-col items-center justify-center overflow-hidden relative'>
-				<h1 className='text-3xl'>Will you date me?</h1>
+				<h1 className='text-3xl'>Quer namorar comigo?</h1>
 
 				<div className='mt-4 flex gap-4 w-60 justify-end'>
 					<Button className='w-28' ref={buttonRef} onClick={handleNo} onMouseOver={handleNo}>
